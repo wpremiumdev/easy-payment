@@ -1,0 +1,612 @@
+# Copyright (C) 2016 Easy Payment
+# This file is distributed under the same license as the Easy Payment package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Payment 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-payment\n"
+"POT-Creation-Date: 2016-03-18 05:23:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/partials/class-easy-payment-list.php:43
+#: admin/partials/class-easy-payment-list.php:44
+msgid "Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:45
+msgctxt "Admin menu name"
+msgid "Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:46
+msgid "Add Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:47
+msgid "Add New Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:48
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:49
+#: admin/partials/class-easy-payment-list.php:51
+#: admin/partials/class-easy-payment-list.php:52
+msgid "View Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:50
+msgid "New Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:53
+msgid "Search Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:54
+msgid "No Payment List found"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:55
+msgid "No Payment List found in trash"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:56
+msgid "Parent Payment List"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:58
+msgid "This is where you can add new IPN to your store."
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:103
+msgctxt "column name"
+msgid "Post ID"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:104
+msgctxt "column name"
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:105
+msgctxt "column name"
+msgid "Name / Company"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:106
+#: admin/partials/easy-payment-general-setting.php:221
+msgid "Amount"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:107
+msgid "Transaction Type"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:108
+msgid "Payment status"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:109
+msgctxt "column name"
+msgid "Date"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:202
+msgid "Payment List Fields"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:215
+#: admin/partials/class-easy-payment-list.php:221
+msgid "IPN Field Name"
+msgstr ""
+
+#: admin/partials/class-easy-payment-list.php:216
+#: admin/partials/class-easy-payment-list.php:222
+msgid "IPN Field Value"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:48
+msgid "Email settings"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:48
+msgid ""
+"Set your own sender name and email address. Default WordPress values will be "
+"used if empty."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:50
+#: admin/partials/easy-payment-general-setting.php:57
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:52
+msgid "Enable this email notification for payer"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:59
+msgid "Enable this email notification for website admin"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:64
+msgid "\"From\" Name"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:73
+msgid "\"From\" Email Address"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:85
+msgid "Email subject"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:95
+msgid "Email body"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:96
+msgid ""
+"The text to appear in the Payment Email. Please read more Help section(tab) "
+"for more dynamic tag"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:113
+msgid "Some dynamic tags can be included in your email template :"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:115
+msgid "<strong>%blog_url%</strong> : will be replaced with your blog URL."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:116
+msgid "<strong>%home_url%</strong> : will be replaced with your home URL."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:117
+msgid "<strong>%blog_name%</strong> : will be replaced with your blog name."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:118
+msgid ""
+"<strong>%blog_description%</strong> : will be replaced with your blog "
+"description."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:119
+msgid "<strong>%admin_email%</strong> : will be replaced with admin email."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:120
+msgid ""
+"<strong>%date%</strong> : will be replaced with current date, as formatted "
+"in <a href=\"options-general.php\">general options</a>."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:121
+msgid ""
+"<strong>%time%</strong> : will be replaced with current time, as formatted "
+"in <a href=\"options-general.php\">general options</a>."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:122
+msgid ""
+"<strong>%txn_id%</strong> : will be replaced with PayPal payment transaction "
+"ID."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:123
+msgid ""
+"<strong>%receiver_email%</strong> : will be replaced with PayPal payment "
+"receiver email address%."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:124
+msgid ""
+"<strong>%payment_date%</strong> : will be replaced with PayPal payment date%."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:125
+msgid ""
+"<strong>%first_name%</strong> : will be replaced with PayPal payment first "
+"name%."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:126
+msgid ""
+"<strong>%last_name%</strong> : will be replaced with PayPal payment last name"
+"%."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:127
+msgid ""
+"<strong>%mc_currency%</strong> : will be replaced with PayPal payment "
+"currency like USD"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:128
+msgid ""
+"<strong>%mc_gross%</strong> : will be replaced with PayPal payment amount"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:142
+#: admin/partials/easy-payment-general-setting.php:332
+#: admin/partials/easy-payment-general-setting.php:545
+msgid "Save changes"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:158
+msgid "PayPal Account Setup"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:161
+#: admin/partials/easy-payment-general-setting.php:164
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:167
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"%s\">here</a>."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:173
+msgid "PayPal Email Address or Merchant Account ID"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:176
+msgid ""
+"This is the Paypal Email Address or Merchant Account ID where the payments "
+"will go."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:185
+msgid "Currency"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:186
+msgid "This is the currency for your visitors to make Payments or Payments in."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:197
+msgid "Optional Settings"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:200
+msgid "Button Label"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:203
+msgid "PayPal payment button label  (Optional)."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:210
+msgid "Return Page"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:212
+msgid ""
+"URL to which the Payer comes to after completing the payment; for example, a "
+"URL on your site that displays a \"Thank you for your payment\"."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:224
+msgid "The default amount for a payment (Optional)."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:229
+msgid "Item Name"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:232
+msgid "The default purpose of a payment (Optional)."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:241
+msgid "Payment Button"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:244
+msgid "Select Payment Button"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:248
+msgid "Select Button."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:250
+msgid ""
+"<img style=\"vertical-align: middle;\" alt=\"large\" src=\"https://www."
+"paypalobjects.com/en_AU/i/btn/btn_buynow_LG.gif\">"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:251
+msgid ""
+"<img style=\"vertical-align: middle;\" alt=\"large\" src=\"https://www."
+"paypalobjects.com/en_AU/i/btn/btn_paynow_LG.gif\">"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:252
+msgid ""
+"Custom Button ( If you select this option then pleae enter url in Custom "
+"Button textbox, Otherwise payment button will not display. )"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:257
+msgid "Custom Button"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:260
+msgid "Enter a URL to a custom payment button."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:345
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:346
+msgid "Australian Dollars"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:347
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:348
+msgid "Brazilian Real"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:349
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:350
+msgid "Canadian Dollars"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:351
+msgid "Chilean Peso"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:352
+msgid "Chinese Yuan"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:353
+msgid "Colombian Peso"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:354
+msgid "Czech Koruna"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:355
+msgid "Danish Krone"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:356
+msgid "Dominican Peso"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:357
+msgid "Euros"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:358
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:359
+msgid "Croatia kuna"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:360
+msgid "Hungarian Forint"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:361
+msgid "Icelandic krona"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:362
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:363
+msgid "Indian Rupee"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:364
+msgid "Nepali Rupee"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:365
+msgid "Israeli Shekel"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:366
+msgid "Japanese Yen"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:367
+msgid "Lao Kip"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:368
+msgid "South Korean Won"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:369
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:370
+msgid "Mexican Peso"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:371
+msgid "Nigerian Naira"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:372
+msgid "Norwegian Krone"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:373
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:374
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:375
+msgid "Philippine Pesos"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:376
+msgid "Polish Zloty"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:377
+msgid "Pounds Sterling"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:378
+msgid "Romanian Leu"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:379
+msgid "Russian Ruble"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:380
+msgid "Singapore Dollar"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:381
+msgid "South African rand"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:382
+msgid "Swedish Krona"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:383
+msgid "Swiss Franc"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:384
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:385
+msgid "Thai Baht"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:386
+msgid "Turkish Lira"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:387
+msgid "US Dollars"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:388
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:389
+msgid "Egyptian Pound"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:506
+msgid "MailChimp Integration"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:508
+msgid "Enable MailChimp"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:511
+msgid "MailChimp API Key"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:512
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"http://admin.mailchimp.com/"
+"account/api-key-popup\">Get your API key</a>"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:519
+msgid "MailChimp lists"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:520
+msgid ""
+"After you add your MailChimp API Key above and save it this list will be "
+"populated."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:528
+msgid "Force MailChimp lists refresh"
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:529
+msgid ""
+"Check and 'Save changes' this if you've added a new MailChimp list and it's "
+"not showing in the list above."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:568
+#: admin/partials/easy-payment-general-setting.php:598
+msgid "Unable to load MailChimp lists, check your API Key."
+msgstr ""
+
+#: admin/partials/easy-payment-general-setting.php:571
+#: admin/partials/easy-payment-general-setting.php:602
+msgid "You have not created any lists at MailChimp"
+msgstr ""
+
+#: admin/partials/easy-payment-html-output.php:340
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/class-easy-payment.php:73
+msgid "Configure"
+msgstr ""
+
+#: includes/class-easy-payment.php:74
+msgid "Support"
+msgstr ""
+
+#: includes/class-easy-payment.php:75
+msgid "Write a Review"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Payment"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://mbjtechnolabs.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easy to use add a PayPal Payment button as a Page, Post and Widget with a "
+"shortcode"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mbj-webdevelopment"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mbjtechnolabs.com"
+msgstr ""
